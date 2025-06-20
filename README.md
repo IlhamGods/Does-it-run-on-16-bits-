@@ -24,6 +24,9 @@ Yang harus diperhatikan:
     2. Buat beberapa titik tegangan berbeda (misal 1V, 2V, 3V, 4V)
     3. Ukur dengan multimeter 6.5 digit sebagai referensi
 
+# Effective Number of Bits (ENOB)
+ENOB menunjukkan resolusi efektif yang benar-benar bisa dicapai (biasanya lebih rendah dari 16-bit karena noise). Dan biasanya ENOB ini yang biasanya terjadi.
+
 # Kriteria Membuktikan Resolusi 16-bit 
  A. ADS1115 benar-benar 16-bit jika:
     1. Step size konsisten ~0.1875mV (dengan GAIN_TWOTHIRDS)
